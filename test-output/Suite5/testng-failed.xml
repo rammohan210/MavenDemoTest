@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite5]" parallel="methods">
+  <test name="Test5(failed)" parallel="methods">
+    <classes>
+      <class name="Grid.GridParallel">
+        <methods>
+          <include name="m2"/>
+          <include name="m3"/>
+        </methods>
+      </class> <!-- Grid.GridParallel -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+</suite> <!-- Failed suite [Suite5] -->
